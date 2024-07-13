@@ -51,5 +51,6 @@ public class ChessMatch {
         for (int i = 0 ; i < 8 ; i++) {
             board.placePiece(new Pawn(board, Color.WHITE), new Position(6, i));
         }
+
     }
 }
