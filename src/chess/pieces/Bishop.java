@@ -8,6 +8,12 @@ public class Bishop extends ChessPiece {
     public Bishop() {
     }
 
+    @Override
+    public boolean[][] possibleMoves() {
+        boolean[][] mat = new boolean[getBoard().getRows()][getBoard().getColumns()];
+        return mat;
+    }
+
     public Bishop(Board board, Color color) {
         super(board, color);
     }

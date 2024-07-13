@@ -8,6 +8,12 @@ public class Queen extends ChessPiece {
     public Queen() {
     }
 
+    @Override
+    public boolean[][] possibleMoves() {
+        boolean[][] mat = new boolean[getBoard().getRows()][getBoard().getColumns()];
+        return mat;
+    }
+
     public Queen(Board board, Color color) {
         super(board, color);
     }
