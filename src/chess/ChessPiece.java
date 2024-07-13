@@ -13,10 +13,9 @@ public class ChessPiece extends Piece {
         setMoveCount(null);
     }
 
-    public ChessPiece(Board board, Color color, Integer moveCount) {
+    public ChessPiece(Board board, Color color) {
         super(board);
         setColor(color);
-        setMoveCount(moveCount);
     }
 
     public Color getColor() {
